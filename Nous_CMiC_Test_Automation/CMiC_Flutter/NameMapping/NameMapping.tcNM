@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{93D32B8A-365F-4A4C-A556-5A6DF53E9853}">
+				<TypeInfo Item0="{0C8754D2-FED1-4D14-BCAE-C2C1CA82907B}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{477005BD-FB17-4C0A-B6DB-389CDFDE1BF3}">
+						<TypeInfo Item0="{61FB7E25-890D-498E-914A-1D6F57A12588}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageConstructPm" Key="{E58032CE-DAF9-4D39-92E4-ACA38FA78D6E}">
+								<Image FileName="-1790748219" Left="0" Top="130" Right="1920" Bottom="1019" />
+								<TypeInfo Item0="{7A34E29A-21C5-42FD-B644-3E625DA1EC74}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="*/construct*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="fltSemanticsfltSemanticNode16" Key="{B1899378-0088-43FC-943A-8D870DA3B503}">
+										<Image FileName="-692413702" Left="11" Top="411" Right="131" Bottom="509" />
+										<TypeInfo Item0="{89185DF6-4F1B-4A75-9DD7-72B557E4D4B0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;RFIs&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxSubject" Key="{EC5D7748-2927-46C3-9511-C7294A9CA6CF}">
+										<Image FileName="423752845" Left="58" Top="261" Right="1897" Bottom="357" />
+										<TypeInfo Item0="{653085F1-C2D2-44B7-B477-4E80B6B0701D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@aria-label=&apos;Subject*&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFltSemanticNode752" Key="{3B505D8C-05F1-4308-8449-FB5A4076DFBA}">
+										<Image FileName="-1280753416" Left="1697" Top="255" Right="1916" Bottom="315" />
+										<TypeInfo Item0="{390ADD60-EAFA-4971-B58F-CB8251396C5B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//flt-semantics[@flt-semantics-identifier=&apos;ButtonCreateRfi&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{477005BD-FB17-4C0A-B6DB-389CDFDE1BF3}">
+			<Child Name="pageConstruct" Owner="{E58032CE-DAF9-4D39-92E4-ACA38FA78D6E}">
+				<Child Name="txtRFISubject" Owner="{EC5D7748-2927-46C3-9511-C7294A9CA6CF}" />
+				<Child Name="tabRFIs" Owner="{B1899378-0088-43FC-943A-8D870DA3B503}" />
+				<Child Name="btnCreateRFI" Owner="{3B505D8C-05F1-4308-8449-FB5A4076DFBA}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

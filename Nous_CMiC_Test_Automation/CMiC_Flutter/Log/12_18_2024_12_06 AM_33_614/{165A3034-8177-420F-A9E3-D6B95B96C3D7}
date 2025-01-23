@@ -1,0 +1,1584 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 43">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageConstruct.FindElement(&quot;//input[contains(@aria-label,'Severity*')]&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2156371644"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+					<Prp name="object right" type="I" value="958"/>
+					<Prp name="object top" type="I" value="484"/>
+					<Prp name="object bottom" type="I" value="580"/>
+					<Prp name="line #" type="I" value="149"/>
+					<Prp name="object left" type="I" value="47"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="43"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/issues&quot;).FindElement(&quot;//input[contains(@aria-label,'Severity*')]&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0074162153"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="149"/>
+		</Node>
+		<Node name="message 25">
+			<Prp name="owner id" type="I" value="24"/>
+			<Prp name="message" type="S" value="FAIL: Object is not identified after waiting for - 15 seconds"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0050118634"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="557"/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow(0)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2131287847"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object right" type="I" value="1931"/>
+					<Prp name="object top" type="I" value="-11"/>
+					<Prp name="object bottom" type="I" value="1031"/>
+					<Prp name="line #" type="I" value="71"/>
+					<Prp name="object left" type="I" value="-11"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="The 'Sign In - Google Chrome' window was maximized."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).BrowserWindow(0)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0047964468"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="71"/>
+		</Node>
+		<Node name="message 47">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageConstruct.FindElement(&quot;//input[contains(@aria-label,'Type*')]&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2165359259"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage23.png"/>
+					<Prp name="object right" type="I" value="1886"/>
+					<Prp name="object top" type="I" value="484"/>
+					<Prp name="object bottom" type="I" value="580"/>
+					<Prp name="line #" type="I" value="149"/>
+					<Prp name="object left" type="I" value="975"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="47"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/issues&quot;).FindElement(&quot;//input[contains(@aria-label,'Type*')]&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0082602778"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="149"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="Navigating to the about:blank page."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="URL: about:blank&#xA;&#xA;Aliases.browser"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.004717338"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="425"/>
+		</Node>
+		<Node name="message 48">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="143"/>
+					<Prp name="click point y" type="I" value="960"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageConstruct.FindElement(&quot;//*[contains(@aria-label,'To*')]//*[text()='Add Contact'] | //*[contains(@aria-label,'To*')]//*[@aria-label='Add Contact']&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2172338773"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage24.png"/>
+					<Prp name="object right" type="I" value="240"/>
+					<Prp name="object top" type="I" value="930"/>
+					<Prp name="object bottom" type="I" value="990"/>
+					<Prp name="line #" type="I" value="1977"/>
+					<Prp name="object left" type="I" value="47"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="48"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (64, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/issues&quot;).FindElement(&quot;//*[contains(@aria-label,'To*')]//*[text()='Add Contact'] | //*[contains(@aria-label,'To*')]//*[@aria-label='Add Contact']&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0089245602"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1977"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="Navigating to the https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/ page."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="URL: https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/&#xA;&#xA;Aliases.browser"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0047935301"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="65"/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page(&quot;https://qalatestinfra.cmicpaas.com/oam/server/obrareq.cgi?encquery%3DJEcXxt%2Fe3u3RBkPsUfLhVu4JmONZweS7KjNMGYGHcgcQefiA7tYJWStSevq3GFmmiAclxvCs26u2lhl1JP1NK%2B%2FxtFQ0rdd1m5CbUx1OwkoxXXPSMdqellYFiAPqGfId3%2BOHs%2F7MOL3RV8nT5AreLd4pUSH37FuCgRZm10g0kVxW0Se%2B2D4lXsLA0gVscJzKuh%2BXVcRnJU%2FBIwzNY%2BYNKhIODOqj4pU2ZWZGrvc957NC9lGs003zF5av7LCXyf0hklYlFyyGwWTaBpcvhi0OHH2YQqgcYPBYYogFbShG5yNMhUFMiyBpRtDOhWVKNPGL0PZ9Qs1yQANgBAicWEUz1Q%3D%3D%20agentid%3DOAMJSP1%20ver%3D1%20crmethod%3D2%26cksum%3D124bb373b93ac0cb05291fd2c22df9048ff35bd2&amp;ECID-Context=1.00jY1eeIzBtEgKtawdicMG0001h800JXiy%3BkXjE&quot;).FindElement(&quot;//input[@id='username']&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2131375694"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object right" type="I" value="1230"/>
+					<Prp name="object top" type="I" value="596"/>
+					<Prp name="object bottom" type="I" value="674"/>
+					<Prp name="line #" type="I" value="65"/>
+					<Prp name="object left" type="I" value="690"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="The text 'cloudr12p' was entered in the text editor."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatestinfra.cmicpaas.com/oam/server/obrareq.cgi?encquery%3DJEcXxt%2Fe3u3RBkPsUfLhVu4JmONZweS7KjNMGYGHcgcQefiA7tYJWStSevq3GFmmiAclxvCs26u2lhl1JP1NK%2B%2FxtFQ0rdd1m5CbUx1OwkoxXXPSMdqellYFiAPqGfId3%2BOHs%2F7MOL3RV8nT5AreLd4pUSH37FuCgRZm10g0kVxW0Se%2B2D4lXsLA0gVscJzKuh%2BXVcRnJU%2FBIwzNY%2BYNKhIODOqj4pU2ZWZGrvc957NC9lGs003zF5av7LCXyf0hklYlFyyGwWTaBpcvhi0OHH2YQqgcYPBYYogFbShG5yNMhUFMiyBpRtDOhWVKNPGL0PZ9Qs1yQANgBAicWEUz1Q%3D%3D%20agentid%3DOAMJSP1%20ver%3D1%20crmethod%3D2%26cksum%3D124bb373b93ac0cb05291fd2c22df9048ff35bd2&amp;ECID-Context=1.00jY1eeIzBtEgKtawdicMG0001h800JXiy%3BkXjE&quot;).FindElement(&quot;//input[@id='username']&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0048058796"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="65"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'![Tab]![Tab]![Tab]![Tab]![Tab]' was sent as a keyboard input to an active window."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0047513542"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="434"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="Launch browser Chrome and navigate to URL : https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0047965857"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="81"/>
+		</Node>
+		<Node name="message 28">
+			<Prp name="owner id" type="I" value="27"/>
+			<Prp name="message" type="S" value="Step: Create Issue"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="bkcolor" type="I" value="15591398"/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0051606713"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="99"/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="line no" type="I" value="66"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="C4510"/>
+		</Node>
+		<Node name="message 38">
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="Step= Enter the Status [New]; Function= Enter; Object/Parameter= //input[contains(@aria-label,'Status*')]"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0066336921"/>
+			<Prp name="color" type="I" value="32768"/>
+			<Prp name="picture" type="S" value="Picture8.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="186"/>
+		</Node>
+		<Node name="message 57">
+			<Prp name="owner id" type="I" value="56"/>
+			<Prp name="message" type="S" value="Step: Search and select Record"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="bkcolor" type="I" value="15591398"/>
+			<Prp name="id" type="I" value="57"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0102902778"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="99"/>
+		</Node>
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page(&quot;https://qalatestinfra.cmicpaas.com/oam/server/obrareq.cgi?encquery%3DJEcXxt%2Fe3u3RBkPsUfLhVu4JmONZweS7KjNMGYGHcgcQefiA7tYJWStSevq3GFmmiAclxvCs26u2lhl1JP1NK%2B%2FxtFQ0rdd1m5CbUx1OwkoxXXPSMdqellYFiAPqGfId3%2BOHs%2F7MOL3RV8nT5AreLd4pUSH37FuCgRZm10g0kVxW0Se%2B2D4lXsLA0gVscJzKuh%2BXVcRnJU%2FBIwzNY%2BYNKhIODOqj4pU2ZWZGrvc957NC9lGs003zF5av7LCXyf0hklYlFyyGwWTaBpcvhi0OHH2YQqgcYPBYYogFbShG5yNMhUFMiyBpRtDOhWVKNPGL0PZ9Qs1yQANgBAicWEUz1Q%3D%3D%20agentid%3DOAMJSP1%20ver%3D1%20crmethod%3D2%26cksum%3D124bb373b93ac0cb05291fd2c22df9048ff35bd2&amp;ECID-Context=1.00jY1eeIzBtEgKtawdicMG0001h800JXiy%3BkXjE&quot;).FindElement(&quot;//input[@id='password']&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2131469676"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object right" type="I" value="1230"/>
+					<Prp name="object top" type="I" value="697"/>
+					<Prp name="object bottom" type="I" value="775"/>
+					<Prp name="line #" type="I" value="65"/>
+					<Prp name="object left" type="I" value="690"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="The value of the CMiC_Test_Automation.CMiC_Flutter.Password variable was entered in the text editor."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatestinfra.cmicpaas.com/oam/server/obrareq.cgi?encquery%3DJEcXxt%2Fe3u3RBkPsUfLhVu4JmONZweS7KjNMGYGHcgcQefiA7tYJWStSevq3GFmmiAclxvCs26u2lhl1JP1NK%2B%2FxtFQ0rdd1m5CbUx1OwkoxXXPSMdqellYFiAPqGfId3%2BOHs%2F7MOL3RV8nT5AreLd4pUSH37FuCgRZm10g0kVxW0Se%2B2D4lXsLA0gVscJzKuh%2BXVcRnJU%2FBIwzNY%2BYNKhIODOqj4pU2ZWZGrvc957NC9lGs003zF5av7LCXyf0hklYlFyyGwWTaBpcvhi0OHH2YQqgcYPBYYogFbShG5yNMhUFMiyBpRtDOhWVKNPGL0PZ9Qs1yQANgBAicWEUz1Q%3D%3D%20agentid%3DOAMJSP1%20ver%3D1%20crmethod%3D2%26cksum%3D124bb373b93ac0cb05291fd2c22df9048ff35bd2&amp;ECID-Context=1.00jY1eeIzBtEgKtawdicMG0001h800JXiy%3BkXjE&quot;).FindElement(&quot;//input[@id='password']&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0048151389"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="65"/>
+		</Node>
+		<Node name="message 44">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="1430"/>
+					<Prp name="click point y" type="I" value="532"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageConstruct.FindElement(&quot;//input[contains(@aria-label,'Type*')]&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.216076493"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage21.png"/>
+					<Prp name="object right" type="I" value="1886"/>
+					<Prp name="object top" type="I" value="484"/>
+					<Prp name="object bottom" type="I" value="580"/>
+					<Prp name="line #" type="I" value="58"/>
+					<Prp name="object left" type="I" value="975"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="44"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (303, 32) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/issues&quot;).FindElement(&quot;//input[contains(@aria-label,'Type*')]&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0077858449"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="58"/>
+		</Node>
+		<Node name="message 40">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="502"/>
+					<Prp name="click point y" type="I" value="532"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageConstruct.FindElement(&quot;//input[contains(@aria-label,'Severity*')]&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2153578935"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="object right" type="I" value="958"/>
+					<Prp name="object top" type="I" value="484"/>
+					<Prp name="object bottom" type="I" value="580"/>
+					<Prp name="line #" type="I" value="58"/>
+					<Prp name="object left" type="I" value="47"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="40"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (303, 32) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/issues&quot;).FindElement(&quot;//input[contains(@aria-label,'Severity*')]&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0070674537"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="58"/>
+		</Node>
+		<Node name="message 50">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageConstruct.FindElement(&quot;//*[text()='Select Contact']/following-sibling::*//input | //*[@aria-label='Select Contact']/following-sibling::*//input | //*[@aria-label='Search']&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2174623958"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage25.png"/>
+					<Prp name="object right" type="I" value="1236"/>
+					<Prp name="object top" type="I" value="280"/>
+					<Prp name="object bottom" type="I" value="361"/>
+					<Prp name="line #" type="I" value="149"/>
+					<Prp name="object left" type="I" value="696"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="50"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'OATS[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/issues&quot;).FindElement(&quot;//*[text()='Select Contact']/following-sibling::*//input | //*[@aria-label='Select Contact']/following-sibling::*//input | //*[@aria-label='Search']&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0094857755"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="149"/>
+		</Node>
+		<Node name="message 37">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageConstruct.FindElement(&quot;//input[contains(@aria-label,'Status*')]&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2148301389"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="object right" type="I" value="1886"/>
+					<Prp name="object top" type="I" value="367"/>
+					<Prp name="object bottom" type="I" value="463"/>
+					<Prp name="line #" type="I" value="65"/>
+					<Prp name="object left" type="I" value="47"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="The text 'New' was entered in the text editor."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/issues&quot;).FindElement(&quot;//input[contains(@aria-label,'Status*')]&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0066107407"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="65"/>
+		</Node>
+		<Node name="message 55">
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="Step= Click Submit; Function= Click; Object/Parameter= //*[text()='SUBMIT'] | //*[@aria-label='SUBMIT']"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="55"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0102346875"/>
+			<Prp name="color" type="I" value="32768"/>
+			<Prp name="picture" type="S" value="Picture14.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="186"/>
+		</Node>
+		<Node name="message 26">
+			<Prp name="owner id" type="I" value="24"/>
+			<Prp name="message" type="S" value="Enabling the flutter accessiblity in the browser's console window"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.005011875"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="2016"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Esc]' was sent as a keyboard input to an active window."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0047937269"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="69"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="Project.Variables.ClearCache - true"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0046234722"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="46"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="Step= Enter Password : [{414E3FD2-5060-437C-B977-61BB6CAB07C5}CMiC_Test_AutomationCMiC_FlutterPassword]; Function= Enter; Object/Parameter= //input[@id='password']"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0048184028"/>
+			<Prp name="color" type="I" value="32768"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="186"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="Step= Enter User ID : [cloudr12p]; Function= Enter; Object/Parameter= //input[@id='username']"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0048093518"/>
+			<Prp name="color" type="I" value="32768"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="186"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="line no" type="I" value="58"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="stacktext" type="S" value="Enter"/>
+		</Node>
+		<Node name="message 31">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="1782"/>
+					<Prp name="click point y" type="I" value="274"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageConstruct.FindElement(&quot;//flt-semantics[contains(text(),'CREATE ISSUE')]&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2138784607"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="object right" type="I" value="1905"/>
+					<Prp name="object top" type="I" value="244"/>
+					<Prp name="object bottom" type="I" value="304"/>
+					<Prp name="line #" type="I" value="1977"/>
+					<Prp name="object left" type="I" value="1660"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (81, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/issues&quot;).FindElement(&quot;//flt-semantics[contains(text(),'CREATE ISSUE')]&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.005575625"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1977"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="message" type="S" value="Step: Launch the Direct URL and Login to Test Environment"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="bkcolor" type="I" value="15591398"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.004623125"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="99"/>
+		</Node>
+		<Node name="message 41">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageConstruct.FindElement(&quot;//input[contains(@aria-label,'Severity*')]&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2154306134"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+					<Prp name="object right" type="I" value="958"/>
+					<Prp name="object top" type="I" value="484"/>
+					<Prp name="object bottom" type="I" value="580"/>
+					<Prp name="line #" type="I" value="65"/>
+					<Prp name="object left" type="I" value="47"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="The text 'High' was entered in the text editor."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="41"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/issues&quot;).FindElement(&quot;//input[contains(@aria-label,'Severity*')]&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0071488542"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="65"/>
+		</Node>
+		<Node name="message 49">
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="Step= Click Add Contact for 'To'; Function= Click; Object/Parameter= //*[contains(@aria-label,'To*')]//*[text()='Add Contact'] | //*[contains(@aria-label,'To*')]//*[@aria-label='Add Contact']"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="49"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0089434838"/>
+			<Prp name="color" type="I" value="32768"/>
+			<Prp name="picture" type="S" value="Picture11.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="186"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to an active window."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0047519676"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="435"/>
+		</Node>
+		<Node name="message 60">
+			<Prp name="owner id" type="I" value="58"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="stack end" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="60"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.01066625"/>
+			<Prp name="picture" type="S" value="Picture15.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="4"/>
+			<Prp name="line no" type="I" value="99"/>
+		</Node>
+		<Node name="message 24">
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="message" type="S" value="Step: Enable Flutter Accessibility"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="bkcolor" type="I" value="15591398"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0048349769"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="99"/>
+		</Node>
+		<Node name="message 54">
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="54"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (49, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/issues&quot;).FindElement(&quot;//*[text()='SUBMIT'] | //*[@aria-label='SUBMIT']&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0102039815"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1977"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Step: Issues - Add Related Objects"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="bkcolor" type="I" value="15591398"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0046230093"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="99"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 52">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="960"/>
+					<Prp name="click point y" type="I" value="457"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageConstruct.FindElement(&quot;(//*[contains(@aria-label,'SelectableListItemContact')])[1] | (//*[contains(@flt-semantics-identifier,'SelectableListItemContact')])[1]&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2182321181"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage26.png"/>
+					<Prp name="object right" type="I" value="1260"/>
+					<Prp name="object top" type="I" value="403"/>
+					<Prp name="object bottom" type="I" value="511"/>
+					<Prp name="line #" type="I" value="1977"/>
+					<Prp name="object left" type="I" value="660"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="52"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (200, 36) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/issues&quot;).FindElement(&quot;(//*[contains(@aria-label,'SelectableListItemContact')])[1] | (//*[contains(@flt-semantics-identifier,'SelectableListItemContact')])[1]&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0099215162"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1977"/>
+		</Node>
+		<Node name="message 58">
+			<Prp name="owner id" type="I" value="57"/>
+			<Prp name="message" type="S" value="Step: Search Record"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="bkcolor" type="I" value="15591398"/>
+			<Prp name="id" type="I" value="58"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0102913426"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="99"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'a' was sent as a keyboard input to an active window."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0047497801"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="433"/>
+		</Node>
+		<Node name="message 59">
+			<Prp name="owner id" type="I" value="58"/>
+			<Prp name="message" type="S" value="There was an attempt to perform an action at a point, which is beyond the screen."/>
+			<Prp name="stack end" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="59"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Screen coordinates of the point: (966, -71).&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/issues&quot;).FindElement(&quot;//*[@data-semantics-role='text-field']&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0106646875"/>
+			<Prp name="picture" type="S" value="Picture15.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="line no" type="I" value="58"/>
+		</Node>
+		<Node name="message 45">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageConstruct.FindElement(&quot;//input[contains(@aria-label,'Type*')]&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2161384954"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage22.png"/>
+					<Prp name="object right" type="I" value="1886"/>
+					<Prp name="object top" type="I" value="484"/>
+					<Prp name="object bottom" type="I" value="580"/>
+					<Prp name="line #" type="I" value="65"/>
+					<Prp name="object left" type="I" value="975"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="The text 'Project' was entered in the text editor."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="45"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/issues&quot;).FindElement(&quot;//input[contains(@aria-label,'Type*')]&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0078818287"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="65"/>
+		</Node>
+		<Node name="message 33">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="966"/>
+					<Prp name="click point y" type="I" value="298"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageConstruct.FindElement(&quot;//input[contains(@aria-label,'Subject*')]&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2144853588"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="object right" type="I" value="1886"/>
+					<Prp name="object top" type="I" value="250"/>
+					<Prp name="object bottom" type="I" value="346"/>
+					<Prp name="line #" type="I" value="58"/>
+					<Prp name="object left" type="I" value="47"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (613, 32) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/issues&quot;).FindElement(&quot;//input[contains(@aria-label,'Subject*')]&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0061669907"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="58"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Tab][Tab][Tab][Tab][Esc]' was sent as a keyboard input to an active window."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.004718125"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="426"/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="960"/>
+					<Prp name="click point y" type="I" value="834"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page(&quot;https://qalatestinfra.cmicpaas.com/oam/server/obrareq.cgi?encquery%3DJEcXxt%2Fe3u3RBkPsUfLhVu4JmONZweS7KjNMGYGHcgcQefiA7tYJWStSevq3GFmmiAclxvCs26u2lhl1JP1NK%2B%2FxtFQ0rdd1m5CbUx1OwkoxXXPSMdqellYFiAPqGfId3%2BOHs%2F7MOL3RV8nT5AreLd4pUSH37FuCgRZm10g0kVxW0Se%2B2D4lXsLA0gVscJzKuh%2BXVcRnJU%2FBIwzNY%2BYNKhIODOqj4pU2ZWZGrvc957NC9lGs003zF5av7LCXyf0hklYlFyyGwWTaBpcvhi0OHH2YQqgcYPBYYogFbShG5yNMhUFMiyBpRtDOhWVKNPGL0PZ9Qs1yQANgBAicWEUz1Q%3D%3D%20agentid%3DOAMJSP1%20ver%3D1%20crmethod%3D2%26cksum%3D124bb373b93ac0cb05291fd2c22df9048ff35bd2&amp;ECID-Context=1.00jY1eeIzBtEgKtawdicMG0001h800JXiy%3BkXjE&quot;).FindElement(&quot;//button[@id='submitBtn']&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2131537037"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object right" type="I" value="1253"/>
+					<Prp name="object top" type="I" value="807"/>
+					<Prp name="object bottom" type="I" value="861"/>
+					<Prp name="line #" type="I" value="1977"/>
+					<Prp name="object left" type="I" value="668"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (195, 18) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatestinfra.cmicpaas.com/oam/server/obrareq.cgi?encquery%3DJEcXxt%2Fe3u3RBkPsUfLhVu4JmONZweS7KjNMGYGHcgcQefiA7tYJWStSevq3GFmmiAclxvCs26u2lhl1JP1NK%2B%2FxtFQ0rdd1m5CbUx1OwkoxXXPSMdqellYFiAPqGfId3%2BOHs%2F7MOL3RV8nT5AreLd4pUSH37FuCgRZm10g0kVxW0Se%2B2D4lXsLA0gVscJzKuh%2BXVcRnJU%2FBIwzNY%2BYNKhIODOqj4pU2ZWZGrvc957NC9lGs003zF5av7LCXyf0hklYlFyyGwWTaBpcvhi0OHH2YQqgcYPBYYogFbShG5yNMhUFMiyBpRtDOhWVKNPGL0PZ9Qs1yQANgBAicWEUz1Q%3D%3D%20agentid%3DOAMJSP1%20ver%3D1%20crmethod%3D2%26cksum%3D124bb373b93ac0cb05291fd2c22df9048ff35bd2&amp;ECID-Context=1.00jY1eeIzBtEgKtawdicMG0001h800JXiy%3BkXjE&quot;).FindElement(&quot;//button[@id='submitBtn']&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0048230671"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1977"/>
+		</Node>
+		<Node name="message 32">
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="Step= Click on CREATE Issue; Function= Click; Object/Parameter= //flt-semantics[contains(text(),'CREATE ISSUE')]"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0057722917"/>
+			<Prp name="color" type="I" value="32768"/>
+			<Prp name="picture" type="S" value="Picture6.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="186"/>
+		</Node>
+		<Node name="message 51">
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="Step= Enter the Contact [OATS] to Search; Function= Enter; Object/Parameter= //*[text()='Select Contact']/following-sibling::*//input | //*[@aria-label='Select Contact']/following-sibling::*//input | //*[@aria-label='Search']"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="51"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0096109028"/>
+			<Prp name="color" type="I" value="32768"/>
+			<Prp name="picture" type="S" value="Picture12.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="186"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="TestCaseID: 124432"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0046228935"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="53"/>
+		</Node>
+		<Node name="message 23">
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="Step= Click Sign In button; Function= Click; Object/Parameter= //button[@id='submitBtn']"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.004834838"/>
+			<Prp name="color" type="I" value="32768"/>
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="186"/>
+		</Node>
+		<Node name="message 35">
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="Step= Enter the Subject [Subject_DDec182024T0725]; Function= Enter; Object/Parameter= //input[contains(@aria-label,'Subject*')]"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0062594676"/>
+			<Prp name="color" type="I" value="32768"/>
+			<Prp name="picture" type="S" value="Picture7.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="186"/>
+		</Node>
+		<Node name="message 56">
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="message" type="S" value="Step: 2 - Click on any existing Issue from records"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="bkcolor" type="I" value="15591398"/>
+			<Prp name="id" type="I" value="56"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0102901736"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="99"/>
+		</Node>
+		<Node name="message 46">
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="Step= Enter the Type [Project]; Function= Enter; Object/Parameter= //input[contains(@aria-label,'Type*')]"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="46"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0079094676"/>
+			<Prp name="color" type="I" value="32768"/>
+			<Prp name="picture" type="S" value="Picture10.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="186"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Tab][Tab][Tab][Tab][Tab][Tab]' was sent as a keyboard input to an active window."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0047377662"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="431"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 29">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="60"/>
+					<Prp name="click point y" type="I" value="542"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageConstruct.FindElement(&quot;//*[contains(text(),'Issues')] | //*[contains(@aria-label,'Issues')]&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2134975926"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="object right" type="I" value="120"/>
+					<Prp name="object top" type="I" value="493"/>
+					<Prp name="object bottom" type="I" value="591"/>
+					<Prp name="line #" type="I" value="1977"/>
+					<Prp name="object left" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (40, 33) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/&quot;).FindElement(&quot;//*[contains(text(),'Issues')] | //*[contains(@aria-label,'Issues')]&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0052376273"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1977"/>
+		</Node>
+		<Node name="message 30">
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="Step= Click on Issues; Function= Click; Object/Parameter= //*[contains(text(),'Issues')] | //*[contains(@aria-label,'Issues')]"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0052864699"/>
+			<Prp name="color" type="I" value="32768"/>
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="186"/>
+		</Node>
+		<Node name="message 39">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageConstruct.FindElement(&quot;//input[contains(@aria-label,'Status*')]&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2151129861"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="object right" type="I" value="1886"/>
+					<Prp name="object top" type="I" value="367"/>
+					<Prp name="object bottom" type="I" value="463"/>
+					<Prp name="line #" type="I" value="149"/>
+					<Prp name="object left" type="I" value="47"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/issues&quot;).FindElement(&quot;//input[contains(@aria-label,'Status*')]&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0068043171"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="149"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="Step= Launch CMiC Application with URL:; Function= LaunchURL; Object/Parameter= https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0047999421"/>
+			<Prp name="color" type="I" value="32768"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="186"/>
+		</Node>
+		<Node name="message 27">
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="message" type="S" value="Step: 1 - Click on Issues and create Issues to Link"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="bkcolor" type="I" value="15591398"/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0051605787"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="99"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 1" type="S" value="{9F2CF5DB-C0E3-4F56-BC90-4B61F9904157}"/>
+			<Prp name="unit 3" type="S" value="{5858CAF5-77DE-4BAD-B921-08797A0680D6}"/>
+			<Prp name="unit 0" type="S" value="{2B06103B-FEA4-4A0C-AA7C-88333A0EFA4B}"/>
+			<Prp name="unit 4" type="S" value="{CCE6E554-C693-46CA-A31C-074298F16D57}"/>
+			<Prp name="unit 2" type="S" value="{08C483EF-E36C-421A-BFA4-1055EF4FB452}"/>
+			<Prp name="unit 5" type="S" value="{1D636EB0-77AB-4781-842D-6E78265EB276}"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="line no" type="I" value="586"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="CPM_SearchRecord"/>
+		</Node>
+		<Node name="message 34">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageConstruct.FindElement(&quot;//input[contains(@aria-label,'Subject*')]&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2145180208"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="object right" type="I" value="1886"/>
+					<Prp name="object top" type="I" value="250"/>
+					<Prp name="object bottom" type="I" value="346"/>
+					<Prp name="line #" type="I" value="65"/>
+					<Prp name="object left" type="I" value="47"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="The text 'Subject_DDec182024T0725' was entered in the text editor."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/issues&quot;).FindElement(&quot;//input[contains(@aria-label,'Subject*')]&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0062385301"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="65"/>
+		</Node>
+		<Node name="message 42">
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="Step= Enter the Severity [High]; Function= Enter; Object/Parameter= //input[contains(@aria-label,'Severity*')]"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="42"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0071729398"/>
+			<Prp name="color" type="I" value="32768"/>
+			<Prp name="picture" type="S" value="Picture9.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="186"/>
+		</Node>
+		<Node name="message 53">
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="Step= Select the Contact; Function= Click; Object/Parameter= (//*[contains(@aria-label,'SelectableListItemContact')])[1] | (//*[contains(@flt-semantics-identifier,'SelectableListItemContact')])[1]"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="53"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="style" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0099571181"/>
+			<Prp name="color" type="I" value="32768"/>
+			<Prp name="picture" type="S" value="Picture13.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="186"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="line no" type="I" value="647"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="CPM_SearchAndSelectRecord"/>
+		</Node>
+		<Node name="message 36">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="966"/>
+					<Prp name="click point y" type="I" value="415"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageConstruct.FindElement(&quot;//input[contains(@aria-label,'Status*')]&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2147726042"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="object right" type="I" value="1886"/>
+					<Prp name="object top" type="I" value="367"/>
+					<Prp name="object bottom" type="I" value="463"/>
+					<Prp name="line #" type="I" value="58"/>
+					<Prp name="object left" type="I" value="47"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="28"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (613, 32) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatest.cmicpaas.com/cmicqalatest/construct-pm/issues&quot;).FindElement(&quot;//input[contains(@aria-label,'Status*')]&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0064642593"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="58"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'^![Del]' was sent as a keyboard input to an active window."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.004719375"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="427"/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="960"/>
+					<Prp name="click point y" type="I" value="635"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page(&quot;https://qalatestinfra.cmicpaas.com/oam/server/obrareq.cgi?encquery%3DJEcXxt%2Fe3u3RBkPsUfLhVu4JmONZweS7KjNMGYGHcgcQefiA7tYJWStSevq3GFmmiAclxvCs26u2lhl1JP1NK%2B%2FxtFQ0rdd1m5CbUx1OwkoxXXPSMdqellYFiAPqGfId3%2BOHs%2F7MOL3RV8nT5AreLd4pUSH37FuCgRZm10g0kVxW0Se%2B2D4lXsLA0gVscJzKuh%2BXVcRnJU%2FBIwzNY%2BYNKhIODOqj4pU2ZWZGrvc957NC9lGs003zF5av7LCXyf0hklYlFyyGwWTaBpcvhi0OHH2YQqgcYPBYYogFbShG5yNMhUFMiyBpRtDOhWVKNPGL0PZ9Qs1yQANgBAicWEUz1Q%3D%3D%20agentid%3DOAMJSP1%20ver%3D1%20crmethod%3D2%26cksum%3D124bb373b93ac0cb05291fd2c22df9048ff35bd2&amp;ECID-Context=1.00jY1eeIzBtEgKtawdicMG0001h800JXiy%3BkXjE&quot;).FindElement(&quot;//input[@id='username']&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2131355903"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object right" type="I" value="1230"/>
+					<Prp name="object top" type="I" value="596"/>
+					<Prp name="object bottom" type="I" value="674"/>
+					<Prp name="line #" type="I" value="58"/>
+					<Prp name="object left" type="I" value="690"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (180, 26) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatestinfra.cmicpaas.com/oam/server/obrareq.cgi?encquery%3DJEcXxt%2Fe3u3RBkPsUfLhVu4JmONZweS7KjNMGYGHcgcQefiA7tYJWStSevq3GFmmiAclxvCs26u2lhl1JP1NK%2B%2FxtFQ0rdd1m5CbUx1OwkoxXXPSMdqellYFiAPqGfId3%2BOHs%2F7MOL3RV8nT5AreLd4pUSH37FuCgRZm10g0kVxW0Se%2B2D4lXsLA0gVscJzKuh%2BXVcRnJU%2FBIwzNY%2BYNKhIODOqj4pU2ZWZGrvc957NC9lGs003zF5av7LCXyf0hklYlFyyGwWTaBpcvhi0OHH2YQqgcYPBYYogFbShG5yNMhUFMiyBpRtDOhWVKNPGL0PZ9Qs1yQANgBAicWEUz1Q%3D%3D%20agentid%3DOAMJSP1%20ver%3D1%20crmethod%3D2%26cksum%3D124bb373b93ac0cb05291fd2c22df9048ff35bd2&amp;ECID-Context=1.00jY1eeIzBtEgKtawdicMG0001h800JXiy%3BkXjE&quot;).FindElement(&quot;//input[@id='username']&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0048038194"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="58"/>
+		</Node>
+		<Node name="item 4">
+			<Prp name="line no" type="I" value="99"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="960"/>
+					<Prp name="click point y" type="I" value="736"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page(&quot;https://qalatestinfra.cmicpaas.com/oam/server/obrareq.cgi?encquery%3DJEcXxt%2Fe3u3RBkPsUfLhVu4JmONZweS7KjNMGYGHcgcQefiA7tYJWStSevq3GFmmiAclxvCs26u2lhl1JP1NK%2B%2FxtFQ0rdd1m5CbUx1OwkoxXXPSMdqellYFiAPqGfId3%2BOHs%2F7MOL3RV8nT5AreLd4pUSH37FuCgRZm10g0kVxW0Se%2B2D4lXsLA0gVscJzKuh%2BXVcRnJU%2FBIwzNY%2BYNKhIODOqj4pU2ZWZGrvc957NC9lGs003zF5av7LCXyf0hklYlFyyGwWTaBpcvhi0OHH2YQqgcYPBYYogFbShG5yNMhUFMiyBpRtDOhWVKNPGL0PZ9Qs1yQANgBAicWEUz1Q%3D%3D%20agentid%3DOAMJSP1%20ver%3D1%20crmethod%3D2%26cksum%3D124bb373b93ac0cb05291fd2c22df9048ff35bd2&amp;ECID-Context=1.00jY1eeIzBtEgKtawdicMG0001h800JXiy%3BkXjE&quot;).FindElement(&quot;//input[@id='password']&quot;)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45644.2131446528"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object right" type="I" value="1230"/>
+					<Prp name="object top" type="I" value="697"/>
+					<Prp name="object bottom" type="I" value="775"/>
+					<Prp name="line #" type="I" value="58"/>
+					<Prp name="object left" type="I" value="690"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="2"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (180, 26) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qalatestinfra.cmicpaas.com/oam/server/obrareq.cgi?encquery%3DJEcXxt%2Fe3u3RBkPsUfLhVu4JmONZweS7KjNMGYGHcgcQefiA7tYJWStSevq3GFmmiAclxvCs26u2lhl1JP1NK%2B%2FxtFQ0rdd1m5CbUx1OwkoxXXPSMdqellYFiAPqGfId3%2BOHs%2F7MOL3RV8nT5AreLd4pUSH37FuCgRZm10g0kVxW0Se%2B2D4lXsLA0gVscJzKuh%2BXVcRnJU%2FBIwzNY%2BYNKhIODOqj4pU2ZWZGrvc957NC9lGs003zF5av7LCXyf0hklYlFyyGwWTaBpcvhi0OHH2YQqgcYPBYYogFbShG5yNMhUFMiyBpRtDOhWVKNPGL0PZ9Qs1yQANgBAicWEUz1Q%3D%3D%20agentid%3DOAMJSP1%20ver%3D1%20crmethod%3D2%26cksum%3D124bb373b93ac0cb05291fd2c22df9048ff35bd2&amp;ECID-Context=1.00jY1eeIzBtEgKtawdicMG0001h800JXiy%3BkXjE&quot;).FindElement(&quot;//input[@id='password']&quot;)"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45644.0048131597"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="58"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{86024969-D7DA-41FB-A566-D18C05185502}">
+	<children>
+		<child name="CMiC_Flutter" key="{A82C05D5-896D-42A8-BA73-92222AAFBBDA}" path="CMiC_Flutter\CMiC_Flutter.mds" />
+	</children>
+	<testItems key="{1AD97622-C9B4-4186-8D6D-9359D51D811E}">
+		<children>
+			<testItem key="{A82C05D5-896D-42A8-BA73-92222AAFBBDA}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{5C4FA5A7-8705-49CA-830A-8DF8EE3E90D2}">
+		<data Version="4">
+			<Items>
+				<Variable Name="strBrowser" Type="String" Local="True">
+					<DefValue StrValue="Chrome" />
+				</Variable>
+				<Variable Name="RunID" Type="String" Local="False">
+					<DefValue StrValue="2564" />
+				</Variable>
+				<Variable Name="TestCaseID" Type="String" Local="False">
+					<DefValue StrValue="105605" />
+				</Variable>
+				<Variable Name="TestRailURL" Type="String" Local="True">
+					<DefValue StrValue="https://qa.cmicpaas.com/cmicqadaily2/CmicBi/faces/bi.jsf" />
+				</Variable>
+				<Variable Name="userName" Type="String" Local="True">
+					<DefValue StrValue="Navjot.Singh@cmic.ca" />
+				</Variable>
+				<Variable Name="userPassword" Type="Password" Local="True">
+					<DefValue StrValue="380039003600310031003300440031004600340044003800370033004600360044003400390044004300370039003400440041004600410030003300370045003900360031003800450032003700430042003400360034003500450036003400360037004200420045003000390041003300370033003500" />
+				</Variable>
+				<Variable Name="TestRail" Type="DB Table" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="EnvironmentString" Type="String" Local="False">
+					<DefValue StrValue="6,7,9" />
+				</Variable>
+				<Variable Name="Environment" Type="Integer" Local="False">
+					<DefValue IntValue="6" />
+				</Variable>
+				<Variable Name="AllEnvironments" Type="Table" Local="False">
+					<DefValue RowCount="10" ColumnCount="9">
+						<Columns ColumnName0="ENV" ColumnName1="URL" ColumnName2="LINK" ColumnName3="LoginPageURL" ColumnName4="UserName" ColumnName5="Password" ColumnName6="ParentEnv" ColumnName7="SubEnv" ColumnName8="MidURL" />
+						<Row No="1" Cell0="TEST" Cell1="http://test2v12.cmic.ca:8888/cmiclaunch/cmiclaunchr12.html&#13;&#10;" Cell2="test12c&#13;&#10;" Cell3="*oam/server/obrareq.cgi*&#13;&#10;" Cell4="cloudr12p&#13;&#10;" Cell5="cloudr12p&#13;&#10;" Cell6="test2v12" Cell7="test" Cell8=".cmic.ca:8888/cmic" />
+						<Row No="2" Cell0="PTF&#13;&#10;" Cell1="http://qa2v12.cmic.ca:8888/cmiclaunch/cmiclaunchr12.html&#13;&#10;" Cell2="ptfR12&#13;&#10;" Cell3="*oam/server/obrareq.cgi*&#13;&#10;" Cell4="cloudr12p&#13;&#10;" Cell5="cloudr12p&#13;&#10;" Cell6="qa2v12" Cell7="qa" Cell8=".cmic.ca:8888/cmic" />
+						<Row No="3" Cell0="PROD&#13;&#10;" Cell1="http://qa2v12.cmic.ca:8888/cmiclaunch/cmiclaunchr12.html&#13;&#10;" Cell2="prodR12&#13;&#10;" Cell3="*oam/server/obrareq.cgi*&#13;&#10;" Cell4="cloudr12p&#13;&#10;" Cell5="cloudr12p&#13;&#10;" Cell6="qa2v12" Cell7="qa" Cell8=".cmic.ca:8888/cmic" />
+						<Row No="4" Cell0="SupportProd&#13;&#10;" Cell1="https://supportr12.cmicglobal.com/cmiclaunch/cmiclaunch_R12.html&#13;&#10;" Cell2="SupportProd&#13;&#10;" Cell3="*oam/server/obrareq.cgi*&#13;&#10;" Cell4="cloudr12p&#13;&#10;" Cell5="cloudr12p&#13;&#10;" Cell6="supportr12" Cell7="prod" Cell8=".cmicglobal.com/cmic" />
+						<Row No="5" Cell0="SolutionTest&#13;&#10;" Cell1="https://solutionsr12.cmicpaas.com/cmiclaunch/cmiclaunchv12.html&#13;&#10;" Cell2="Test&#13;&#10;" Cell3="*UIConsole/ssoLogin*&#13;&#10;" Cell4="cloudr12p&#13;&#10;" Cell5="cloudr12p&#13;&#10;" Cell6="solutionsr12" Cell7="test" Cell8=".cmicpaas.com/cmic" />
+						<Row No="6" Cell0="QALatest&#13;&#10;" Cell1="https://qalatest.cmicpaas.com/cmiclaunch/cmiclaunch_R12.html&#13;&#10;" Cell2="Qalatest&#13;&#10;" Cell3="*oam/server/obrareq.cgi*&#13;&#10;" Cell4="cloudr12p&#13;&#10;" Cell5="cloudr12p&#13;&#10;" Cell6="qalatest" Cell7="qalatest" Cell8=".cmicpaas.com/cmic" />
+						<Row No="7" Cell0="QADaily&#13;&#10;" Cell1="https://qa.cmicpaas.com/cmiclaunch/cmiclaunch_R12.html&#13;&#10;" Cell2="Qadaily&#13;&#10;" Cell3="*oam/server/obrareq.cgi*&#13;&#10;" Cell4="cloudr12p&#13;&#10;" Cell5="cloudr12p&#13;&#10;" Cell6="qa" Cell7="qadaily" Cell8=".cmicpaas.com/cmic" />
+						<Row No="8" Cell0="QAPrior&#13;&#10;" Cell1="https://qa.cmicpaas.com/cmiclaunch/cmiclaunch_R12.html&#13;&#10;" Cell2="Qaprior&#13;&#10;" Cell3="*oam/server/obrareq.cgi*&#13;&#10;" Cell4="cloudr12p&#13;&#10;" Cell5="cloudr12p&#13;&#10;" Cell6="qa" Cell7="qaprior" Cell8=".cmicpaas.com/cmic" />
+						<Row No="9" Cell0="QADaily2&#13;&#10;" Cell1="https://qa.cmicpaas.com/cmiclaunch/cmiclaunch_R12.html&#13;&#10;" Cell2="Qadaily2&#13;&#10;" Cell3="*oam/server/obrareq.cgi*&#13;&#10;" Cell4="cloudr12p&#13;&#10;" Cell5="cloudr12p&#13;&#10;" Cell6="qa" Cell7="qadaily2" Cell8=".cmicpaas.com/cmic" />
+					</DefValue>
+				</Variable>
+				<Variable Name="EnterpriseConsole" Type="String" Local="True">
+					<DefValue StrValue="/UIConsole/faces/console.jspx" />
+				</Variable>
+				<Variable Name="ProjectManagement" Type="String" Local="True">
+					<DefValue StrValue="/SdMenu/" />
+				</Variable>
+				<Variable Name="ConstructPM" Type="String" Local="True">
+					<DefValue StrValue="/construct-pm/" />
+				</Variable>
+				<Variable Name="ConstructCT" Type="String" Local="True">
+					<DefValue StrValue="/construct-ct/" />
+				</Variable>
+				<Variable Name="ConstructAPPLICANT" Type="String" Local="True">
+					<DefValue StrValue="/construct-applicant/" />
+				</Variable>
+				<Variable Name="Browser" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="MidURL" Type="String" Local="True">
+					<DefValue StrValue=".cmicpaas.com/cmic" />
+				</Variable>
+				<Variable Name="ParentENV" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="SubENV" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="userTC" Type="String" Local="True">
+					<DefValue StrValue="TCFLDUSR01" />
+				</Variable>
+				<Variable Name="passwordTC" Type="Password" Local="True">
+					<DefValue StrValue="3800390036003100390033004400300046003400440038003800420046003400440034003900420039004600390034004500320046003900420042003700380042003600310043004400410037004500380043003000300032004300300043003500450044004600440035003200300031003500340033004100360031004200" />
+				</Variable>
+				<Variable Name="userTC2" Type="String" Local="True">
+					<DefValue StrValue="TCFLDUSR02" />
+				</Variable>
+				<Variable Name="passwordTC2" Type="Password" Local="True">
+					<DefValue StrValue="3800390036003100390033004400300046003400440038003800420046003400440034003900420039004600390034004500320046003900420042003700380042003600310043004400410037004500380043003000300032004300300043003500450044003900440035003200300031003500350044004100360031003800" />
+				</Variable>
+				<Variable Name="GlobalObjWaitTime" Type="Integer" Local="True" Descr="15 seconds">
+					<DefValue IntValue="15000" />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
+	<analysis key="{56447FB4-0E9B-4564-A7D1-2EE9064905D9}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>

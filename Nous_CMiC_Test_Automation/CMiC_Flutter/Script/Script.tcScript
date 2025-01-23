@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="ApplicationLibrary">
+			<folder name="ConstructAPP">
+				<child name="ConstructAPP" key="{162AB0C4-1ACD-4568-8524-B3C4F87333D7}" path="ConstructAPP.js" />
+				<child name="ConstructAPP_TestCases" key="{B3496873-2060-4BB6-97B0-A349E880CE25}" path="ConstructAPP_TestCases.js" />
+			</folder>
+			<folder name="ConstructPM">
+				<child name="ConstructPM" key="{1D636EB0-77AB-4781-842D-6E78265EB276}" path="ConstructPM.js" />
+				<child name="ConstructPM_TestCases" key="{2B06103B-FEA4-4A0C-AA7C-88333A0EFA4B}" path="ConstructPM_TestCases.js" />
+			</folder>
+			<folder name="ConstructCT">
+				<child name="ConstructCT" key="{8A30D9D0-1598-4873-A963-1234C12D3CD3}" path="ConstructCT.js" />
+				<child name="ConstructCT_TestCases" key="{E3417689-BC59-4699-A297-0AF41ACE665D}" path="ConstructCT_TestCases.js" />
+			</folder>
+		</folder>
+		<folder name="GenericLibrary">
+			<folder name="Browser">
+				<child name="Browser" key="{C46B6A23-95E5-4379-8C3E-B7D18DFA3FD7}" path="Browser.js" />
+			</folder>
+			<folder name="UI">
+				<child name="UIBase" key="{2526E0BB-BA93-4976-9CB6-18D7D83853ED}" path="UIBase.js" />
+				<child name="UICheckBox" key="{90689BC1-0B6A-45E6-BEFC-842D92575525}" path="UICheckBox.js" />
+				<child name="UIDropDown" key="{E24DEEEF-9C7E-470A-9572-CD3808A2C4DB}" path="UIDropDown.js" />
+				<child name="UIRadioButton" key="{4DAD7806-C0D5-41E6-932B-091426374788}" path="UIRadioButton.js" />
+				<child name="UITable" key="{4A6B9329-1736-4645-A173-70E43BB38750}" path="UITable.js" />
+				<child name="UIText" key="{EB401BB4-EB22-4E56-A966-FF65CE4F32A6}" path="UIText.js" />
+				<child name="UIObjectRepository" key="{614EF89B-3356-40CA-B8F7-F1918F102644}" path="UIObjectRepository.js" />
+			</folder>
+			<folder name="Utilities">
+				<child name="Dates" key="{DCFA284C-5898-40D5-A36A-895CF9E9E031}" path="Dates.js" />
+				<child name="EventsConfigurations" key="{858B0B27-814E-4A90-82B3-BDD63D522443}" path="EventsConfigurations.js" />
+				<child name="Generic" key="{08A43275-04E4-47A9-A6D2-9BDA6A88B5B3}" path="Generic.js" />
+				<child name="Logger" key="{87146D16-786D-441F-AFE1-F4BB1B9C9CE6}" path="Logger.js" />
+				<child name="TestCaseData" key="{927302B8-A56E-470C-93DF-325698C7DFF1}" path="TestCaseData.js" />
+			</folder>
+		</folder>
+		<child name="Reference_Libraries" key="{10A04800-6232-4273-9DA2-890B4674F3BC}" path="Reference_Libraries.js" />
+		<child name="CommonLibrary" key="{61CEB960-2DF7-4980-A9BD-F21B89A4708A}" path="CommonLibrary.js" />
+		<child name="RoughTest" key="{21D6F092-F462-409A-BA15-1A746B0AE0E3}" path="RoughTest.js" />
+	</children>
+</Root>

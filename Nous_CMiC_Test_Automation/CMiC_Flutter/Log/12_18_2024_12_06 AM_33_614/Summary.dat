@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings">
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="FAIL: Object is not identified after waiting for - 15 seconds"/>
+							</Node>
+						</Node>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="There was an attempt to perform an action at a point, which is beyond the screen."/>
+							</Node>
+						</Node>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxADYANQBBADMAMAAzADQALQA4ADEANwA3AC0ANAAyADAARgAtAEEAOQBFADMALQBEADYAQgA5ADUAQgA5ADYAQwAzAEQANwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="C4510 - Issues Add Related Objects"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="527830"/>
+						<Prp name="starttime" type="D" value="45644.0045576852"/>
+						<Prp name="durationwithoutchildren" type="I" value="527830"/>
+					</Node>
+				</Node>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="loadtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="CMiC_Flutter"/>
+				<Prp name="starttime" type="D" value="45644.0045576852"/>
+				<Prp name="duration" type="I" value="527830"/>
+			</Node>
+		</Node>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="stop" type="D" value="45644.010771713"/>
+		<Prp name="name" type="S" value="CMiC_Test_Automation"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="user" type="S" value="Administrator"/>
+		<Prp name="loadtests" type="I" value="0"/>
+		<Prp name="host" type="S" value="NOUS1"/>
+		<Prp name="testname" type="S" value="CMiC_Flutter"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="starttime" type="D" value="45644.0045558333"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="key" type="S" value="{944B3729-18B7-47D5-BC7F-835EB63EA6C3}"/>
+	</Node>
+</Nodes>

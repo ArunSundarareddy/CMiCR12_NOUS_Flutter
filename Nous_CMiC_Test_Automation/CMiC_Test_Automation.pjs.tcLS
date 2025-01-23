@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{A82C05D5-896D-42A8-BA73-92222AAFBBDA}"/>
+			</Node>
+			<Node name="{34b5603f-a5ca-4aec-a494-f98e7554882c}">
+				<Prp name="relpath" type="S" value="CMiC_ADF\CMiC_ADF.mds.tcLS"/>
+			</Node>
+			<Node name="{a82c05d5-896d-42a8-ba73-92222aafbbda}">
+				<Prp name="relpath" type="S" value="CMiC_Flutter\CMiC_Flutter.mds.tcLS"/>
+			</Node>
+			<Node name="{cf9ee71a-e10f-4370-baae-5105215cf245}">
+				<Prp name="relpath" type="S" value="CMiC_ADF\CMiC_ADF.mds.tcLS"/>
+			</Node>
+			<Node name="{e6f7723d-2d27-4957-940c-56dd0917404a}">
+				<Prp name="relpath" type="S" value="CMiC\CMiC.mds.tcLS"/>
+			</Node>
+			<Node name="{fcd7fe73-510c-4fea-814f-728d1082c4c7}">
+				<Prp name="relpath" type="S" value="CMiC_ADF\CMiC_ADF.mds.tcLS"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{952B2629-308E-476B-9ABF-295CC418C8F3}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables">
+				<Node name="datav4">
+					<Node name="var0">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4300680072006F006D006500"/>
+						</Node>
+						<Prp name="name" type="S" value="strBrowser"/>
+					</Node>
+					<Node name="var1">
+						<Prp name="name" type="S" value="RunID"/>
+					</Node>
+					<Node name="var10">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="2F005500490043006F006E0073006F006C0065002F00660061006300650073002F0063006F006E0073006F006C0065002E006A00730070007800"/>
+						</Node>
+						<Prp name="name" type="S" value="EnterpriseConsole"/>
+					</Node>
+					<Node name="var11">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="2F00530064004D0065006E0075002F00"/>
+						</Node>
+						<Prp name="name" type="S" value="ProjectManagement"/>
+					</Node>
+					<Node name="var12">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="2F0063006F006E007300740072007500630074002D0070006D002F00"/>
+						</Node>
+						<Prp name="name" type="S" value="ConstructPM"/>
+					</Node>
+					<Node name="var13">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="2F0063006F006E007300740072007500630074002D00630074002F00"/>
+						</Node>
+						<Prp name="name" type="S" value="ConstructCT"/>
+					</Node>
+					<Node name="var14">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="2F0063006F006E007300740072007500630074002D006100700070006C006900630061006E0074002F00"/>
+						</Node>
+						<Prp name="name" type="S" value="ConstructAPPLICANT"/>
+					</Node>
+					<Node name="var15">
+						<Prp name="name" type="S" value="Browser"/>
+					</Node>
+					<Node name="var16">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="2E0063006D006900630070006100610073002E0063006F006D002F0063006D0069006300"/>
+						</Node>
+						<Prp name="name" type="S" value="MidURL"/>
+					</Node>
+					<Node name="var17">
+						<Prp name="name" type="S" value="ParentENV"/>
+					</Node>
+					<Node name="var18">
+						<Prp name="name" type="S" value="SubENV"/>
+					</Node>
+					<Node name="var19">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="5400430046004C00440055005300520030003100"/>
+						</Node>
+						<Prp name="name" type="S" value="userTC"/>
+					</Node>
+					<Node name="var2">
+						<Prp name="name" type="S" value="TestCaseID"/>
+					</Node>
+					<Node name="var20">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="3800390036003100390033004400300046003400440038003800420046003400440034003900420039004600390034004500320046003900420042003700380042003600310043004400410037004500380043003000300032004300300043003500450044004600440035003200300031003500340033004100360031004200"/>
+						</Node>
+						<Prp name="name" type="S" value="passwordTC"/>
+					</Node>
+					<Node name="var21">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="5400430046004C00440055005300520030003200"/>
+						</Node>
+						<Prp name="name" type="S" value="userTC2"/>
+					</Node>
+					<Node name="var22">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="3800390036003100390033004400300046003400440038003800420046003400440034003900420039004600390034004500320046003900420042003700380042003600310043004400410037004500380043003000300032004300300043003500450044003900440035003200300031003500350044004100360031003800"/>
+						</Node>
+						<Prp name="name" type="S" value="passwordTC2"/>
+					</Node>
+					<Node name="var23">
+						<Node name="value">
+							<Prp name="intvalue" type="I" value="15000"/>
+						</Node>
+						<Prp name="name" type="S" value="GlobalObjWaitTime"/>
+					</Node>
+					<Node name="var3">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="680074007400700073003A002F002F00710061002E0063006D006900630070006100610073002E0063006F006D002F0063006D0069006300710061006400610069006C00790032002F0043006D0069006300420069002F00660061006300650073002F00620069002E006A0073006600"/>
+						</Node>
+						<Prp name="name" type="S" value="TestRailURL"/>
+					</Node>
+					<Node name="var4">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4E00610076006A006F0074002E00530069006E0067006800400063006D00690063002E0063006100"/>
+						</Node>
+						<Prp name="name" type="S" value="userName"/>
+					</Node>
+					<Node name="var5">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="380039003600310031003300440031004600340044003800370033004600360044003400390044004300370039003400440041004600410030003300370045003900360031003800450032003700430042003400360034003500450036003400360037004200420045003000390041003300370033003500"/>
+						</Node>
+						<Prp name="name" type="S" value="userPassword"/>
+					</Node>
+					<Node name="var6">
+						<Prp name="name" type="S" value="TestRail"/>
+					</Node>
+					<Node name="var7">
+						<Prp name="name" type="S" value="EnvironmentString"/>
+					</Node>
+					<Node name="var8">
+						<Prp name="name" type="S" value="Environment"/>
+					</Node>
+					<Node name="var9">
+						<Prp name="name" type="S" value="AllEnvironments"/>
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="4"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>

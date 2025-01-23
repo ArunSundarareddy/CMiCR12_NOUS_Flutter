@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="logs">
+				<Prp name="key" type="S" value="{389E995B-73F2-4860-B4AF-8CC8DBC49CD6}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables">
+				<Node name="datav4">
+					<Node name="var0">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="63006C006F00750064007200310032007000"/>
+						</Node>
+						<Prp name="name" type="S" value="UserID"/>
+					</Node>
+					<Node name="var1">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="380039003600310039003300440033004600340044003800430042004600330036004300390043003200370039003000330041004600440038003300370038003900360031004200450032003700430042003400300030003300340030004300360045004200420046003000300043003300370043003200"/>
+						</Node>
+						<Prp name="name" type="S" value="Password"/>
+					</Node>
+					<Node name="var10">
+						<Prp name="name" type="S" value="prefix"/>
+					</Node>
+					<Node name="var11">
+						<Prp name="name" type="S" value="ValIndex"/>
+					</Node>
+					<Node name="var12">
+						<Prp name="name" type="S" value="Keyword"/>
+					</Node>
+					<Node name="var13">
+						<Prp name="name" type="S" value="Value"/>
+					</Node>
+					<Node name="var14">
+						<Prp name="name" type="S" value="TodayDate"/>
+					</Node>
+					<Node name="var15">
+						<Prp name="name" type="S" value="ValIndex1"/>
+					</Node>
+					<Node name="var16">
+						<Prp name="name" type="S" value="Prefix1"/>
+					</Node>
+					<Node name="var17">
+						<Prp name="name" type="S" value="Subject"/>
+					</Node>
+					<Node name="var18">
+						<Prp name="name" type="S" value="Value2"/>
+					</Node>
+					<Node name="var19">
+						<Prp name="name" type="S" value="ValIndex2"/>
+					</Node>
+					<Node name="var2">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="43003A005C00550073006500720073005C00410064006D0069006E006900730074007200610074006F0072005C0044006F0077006E006C006F006100640073005C0043004D00690043005200310032005F004E004F00550053002D006D00610069006E00200028003100390029005C0043004D00690043005200310032005F004E004F00550053002D006D00610069006E005C004E006F00750073005F0043004D00690043005F0054006500730074005F004100750074006F006D006100740069006F006E005C00540065007300740044006100740061005C005200310032002E0078006C007300"/>
+						</Node>
+						<Prp name="name" type="S" value="Path"/>
+					</Node>
+					<Node name="var20">
+						<Prp name="name" type="S" value="LoadProject"/>
+					</Node>
+					<Node name="var21">
+						<Prp name="name" type="S" value="ImportHeader"/>
+					</Node>
+					<Node name="var22">
+						<Prp name="name" type="S" value="ScreenHeader"/>
+					</Node>
+					<Node name="var23">
+						<Prp name="name" type="S" value="ID"/>
+					</Node>
+					<Node name="var24">
+						<Prp name="name" type="S" value="TrainLink"/>
+					</Node>
+					<Node name="var25">
+						<Prp name="name" type="S" value="LoginLink"/>
+					</Node>
+					<Node name="var26">
+						<Prp name="name" type="S" value="LoginPageURL"/>
+					</Node>
+					<Node name="var27">
+						<Prp name="name" type="S" value="RowNumber"/>
+					</Node>
+					<Node name="var28">
+						<Prp name="name" type="S" value="ExtUser"/>
+					</Node>
+					<Node name="var29">
+						<Prp name="name" type="S" value="ExtPassword"/>
+					</Node>
+					<Node name="var3">
+						<Prp name="name" type="S" value="ExcelPath"/>
+					</Node>
+					<Node name="var30">
+						<Prp name="name" type="S" value="texboxCount"/>
+					</Node>
+					<Node name="var31">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="520031003200"/>
+						</Node>
+						<Prp name="name" type="S" value="AppName"/>
+					</Node>
+					<Node name="var32">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="3000"/>
+						</Node>
+						<Prp name="name" type="S" value="CheckNum"/>
+					</Node>
+					<Node name="var33">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="65006E0076006900"/>
+						</Node>
+						<Prp name="name" type="S" value="Envi"/>
+					</Node>
+					<Node name="var34">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="680074007400700073003A002F002F00710061002E0063006D006900630070006100610073002E0063006F006D002F0063006D0069006300710061006400610069006C00790032002F0063006F006E007300740072007500630074002D0070006D002F00"/>
+						</Node>
+						<Prp name="name" type="S" value="URL"/>
+					</Node>
+					<Node name="var35">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4300680072006F006D006500"/>
+						</Node>
+						<Prp name="name" type="S" value="strBrowserNameForTest"/>
+					</Node>
+					<Node name="var36">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="5C005C003100370032002E00320039002E00330039002E00330032005C00550073006500720073005C00410064006D0069006E006900730074007200610074006F0072005C0044006F00630075006D0065006E00740073005C0043004D00690043005F00530068006100720065005C00450078007400650072006E0061006C00530074006F0072006500560061006C007500650073005C0043006F006E0073007400720075006300740050004D00560065007200730069006F006E0073002E0078006C007300"/>
+						</Node>
+						<Prp name="name" type="S" value="ConstructPMVersionsExcelPath"/>
+					</Node>
+					<Node name="var37">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="410070007000560065007200730069006F006E007300"/>
+						</Node>
+						<Prp name="name" type="S" value="ConstructPMVersionsExcelSheetName"/>
+					</Node>
+					<Node name="var4">
+						<Prp name="name" type="S" value="objPage"/>
+					</Node>
+					<Node name="var5">
+						<Prp name="name" type="S" value="ClearCache"/>
+					</Node>
+					<Node name="var6">
+						<Prp name="name" type="S" value="CurrAppName"/>
+					</Node>
+					<Node name="var7">
+						<Prp name="name" type="S" value="strNewPageUrl"/>
+					</Node>
+					<Node name="var8">
+						<Prp name="name" type="S" value="Row"/>
+					</Node>
+					<Node name="var9">
+						<Prp name="name" type="S" value="USERNODE"/>
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="4"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
+	</Node>
+</Nodes>
