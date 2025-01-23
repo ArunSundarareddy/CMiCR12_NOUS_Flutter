@@ -33,14 +33,14 @@
 					<DefValue />
 				</Variable>
 				<Variable Name="EnvironmentString" Type="String" Local="False">
-					<DefValue StrValue="6,7,9" />
+					<DefValue StrValue="10" />
 				</Variable>
 				<Variable Name="Environment" Type="Integer" Local="False">
-					<DefValue IntValue="6" />
+					<DefValue IntValue="10" />
 				</Variable>
 				<Variable Name="AllEnvironments" Type="Table" Local="False">
-					<DefValue RowCount="10" ColumnCount="9">
-						<Columns ColumnName0="ENV" ColumnName1="URL" ColumnName2="LINK" ColumnName3="LoginPageURL" ColumnName4="UserName" ColumnName5="Password" ColumnName6="ParentEnv" ColumnName7="SubEnv" ColumnName8="MidURL" />
+					<DefValue RowCount="11" ColumnCount="10">
+						<Columns ColumnName0="ENV" ColumnName1="URL" ColumnName2="LINK" ColumnName3="LoginPageURL" ColumnName4="UserName" ColumnName5="Password" ColumnName6="ParentEnv" ColumnName7="SubEnv" ColumnName8="MidURL" ColumnName9="Tenant" />
 						<Row No="1" Cell0="TEST" Cell1="http://test2v12.cmic.ca:8888/cmiclaunch/cmiclaunchr12.html&#13;&#10;" Cell2="test12c&#13;&#10;" Cell3="*oam/server/obrareq.cgi*&#13;&#10;" Cell4="cloudr12p&#13;&#10;" Cell5="cloudr12p&#13;&#10;" Cell6="test2v12" Cell7="test" Cell8=".cmic.ca:8888/cmic" />
 						<Row No="2" Cell0="PTF&#13;&#10;" Cell1="http://qa2v12.cmic.ca:8888/cmiclaunch/cmiclaunchr12.html&#13;&#10;" Cell2="ptfR12&#13;&#10;" Cell3="*oam/server/obrareq.cgi*&#13;&#10;" Cell4="cloudr12p&#13;&#10;" Cell5="cloudr12p&#13;&#10;" Cell6="qa2v12" Cell7="qa" Cell8=".cmic.ca:8888/cmic" />
 						<Row No="3" Cell0="PROD&#13;&#10;" Cell1="http://qa2v12.cmic.ca:8888/cmiclaunch/cmiclaunchr12.html&#13;&#10;" Cell2="prodR12&#13;&#10;" Cell3="*oam/server/obrareq.cgi*&#13;&#10;" Cell4="cloudr12p&#13;&#10;" Cell5="cloudr12p&#13;&#10;" Cell6="qa2v12" Cell7="qa" Cell8=".cmic.ca:8888/cmic" />
@@ -50,6 +50,7 @@
 						<Row No="7" Cell0="QADaily&#13;&#10;" Cell1="https://qa.cmicpaas.com/cmiclaunch/cmiclaunch_R12.html&#13;&#10;" Cell2="Qadaily&#13;&#10;" Cell3="*oam/server/obrareq.cgi*&#13;&#10;" Cell4="cloudr12p&#13;&#10;" Cell5="cloudr12p&#13;&#10;" Cell6="qa" Cell7="qadaily" Cell8=".cmicpaas.com/cmic" />
 						<Row No="8" Cell0="QAPrior&#13;&#10;" Cell1="https://qa.cmicpaas.com/cmiclaunch/cmiclaunch_R12.html&#13;&#10;" Cell2="Qaprior&#13;&#10;" Cell3="*oam/server/obrareq.cgi*&#13;&#10;" Cell4="cloudr12p&#13;&#10;" Cell5="cloudr12p&#13;&#10;" Cell6="qa" Cell7="qaprior" Cell8=".cmicpaas.com/cmic" />
 						<Row No="9" Cell0="QADaily2&#13;&#10;" Cell1="https://qa.cmicpaas.com/cmiclaunch/cmiclaunch_R12.html&#13;&#10;" Cell2="Qadaily2&#13;&#10;" Cell3="*oam/server/obrareq.cgi*&#13;&#10;" Cell4="cloudr12p&#13;&#10;" Cell5="cloudr12p&#13;&#10;" Cell6="qa" Cell7="qadaily2" Cell8=".cmicpaas.com/cmic" />
+						<Row No="10" Cell0="AtlasProd" Cell1="https://atlas.cmiccloud.com/cmicprod/construct-pm/" Cell4="TCUSER" Cell5="aX8?sXt%vF" Cell6="atlas" Cell7="prod" Cell8=".cmiccloud.com/cmic" Cell9="CMICTEST" />
 					</DefValue>
 				</Variable>
 				<Variable Name="EnterpriseConsole" Type="String" Local="True">

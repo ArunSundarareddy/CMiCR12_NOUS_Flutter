@@ -3,7 +3,8 @@
 //---------------Common UI Objects-------------------------------------------------------
 CMiC_btnLaunchSoftware = "//input[@value='Launch Software']"
 CMiC_btnLaunchDevTools = "//input[@value='Launch Dev Tools']"
-CMiC_txtUsername = "//input[@id='username']"
+CMiC_txtUsername = "//input[contains(@id,'username')][1]" 
+CMiC_txtClientid = "//input[@id='client_id']" 
 CMiC_txtPassword = "//input[@id='password']"
 CMiC_btnSigIn = "//button[@id='submitBtn']"
 CMiC_lnkLogout = "//a[@title='Logout']"
